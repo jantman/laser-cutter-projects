@@ -6,7 +6,11 @@ I used [these](https://www.amazon.com/gp/product/B07P1DZGLH/) multi-colored 3.3x
 
 For the "design" such as it is, I laid out the text in Inkscape and then converted it to a path
 
-GlowForge printing settings were based on an Amazon review for the aluminum: engraving unknown material, Speed 1000, Power 100, 340 lines per inch, 1 pass, auto focus, material thickness 0.008". This was done on an older and very well used GlowForge Pro.
+GlowForge printing settings were based on an Amazon review for the aluminum, and done on an older and very well used GlowForge Pro:
+
+* Custom/unknown material, thickness 0.008".
+* Pathed text: engraving unknown material, Speed 1000, Power 100, 340 lines per inch, 1 pass, auto focus.
+* Outline/border (used as a cut line): scoring unknown material, Speed 500, Power Full, 1 pass, auto focus.
 
 My first test, [Original-Pathed.svg](Original-Pathed.svg) engraved quite well but was far too large:
 
