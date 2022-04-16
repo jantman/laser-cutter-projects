@@ -4,4 +4,5 @@
 
 Things I've made on the GlowForge laser cutter
 
+* [air_quality_sensor_mounting_plate/](air_quality_sensor_mounting_plate/) - Mounting plate for an air quality sensor made up of an ESP32 clone, an [Adafruit SGP30](https://www.adafruit.com/product/3709) equivalent carbon dioxide (eCO2) and total volatile organic compounds (TVOC) and an [Adafruit PMSA003I](https://www.adafruit.com/product/4632) particulate size and concentration sensor.
 * [nametag/](nametag/) - A simple name tag for myself, in aluminum
