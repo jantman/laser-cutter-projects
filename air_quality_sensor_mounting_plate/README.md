@@ -4,4 +4,4 @@ Mounting plate for an air quality sensor made up of an ESP32 clone, an [Adafruit
 
 The code for the sensor is at: https://github.com/jantman/home-automation-configs/blob/master/wemos_d1_mini/air_sensor.py
 
-This is intended to be cut on a GlowForge Pro, out of 1/8" Lucite L.
+This is intended to be cut on a GlowForge Pro, out of 1/8" Lucite "L" cast acrylic. Settings from [Delvies Plastics](https://www.delviesplastics.com/blog/glowforge-acrylic-laser-settings.html) are speed 160, power FULL, 1 pass, focus height 0.12 inches.
