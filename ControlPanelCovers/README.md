@@ -6,4 +6,4 @@ I originally planned on doing 3-piece hinges, with a center piece that's pinned 
 
 I decided that I really just wanted to get this done and move on with other projects. So, the current plan is to cut the pieces and then hinge them with a full-length piece of T-Rex clear packing tape. Keep in mind, this is a hinge that's used maybe a few times a month. The T-Rex tape seems to stick to acrylic well enough for this use case.
 
-The final pieces were cut on a GlowForge Pro set for Proof Grade Medium Acrylic, Speed 165, Full Power, 2 passes.
+The final pieces were cut on a GlowForge Pro set for Proof Grade Medium Acrylic, Speed 165, Full Power, 2 passes. They were attached to the respective control panels with clear removable double-sided tape.
