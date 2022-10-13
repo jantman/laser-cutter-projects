@@ -5,3 +5,4 @@ pocket_height = 6;
 pocket_depth = 3;
 top_height = 2;
 bottom_height = 3;
+tape_holder_diameter = 1;
