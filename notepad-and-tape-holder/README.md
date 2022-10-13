@@ -13,7 +13,7 @@ Clear acrylic holder for three types of 5.5x8.5" pads, tape, and markers (using 
 
 ## Materials
 
-* Cast acrylic sheets for the above parts
+* Cast acrylic sheets for the above parts; all parts will fit on a 19x29 sheet, as laid out in [layout_19x29.svg](layout_19x29.svg)
 * 1" diameter acrylic cylinder, at least 6.25" long, to hold roll of tape
 * A method of fastening each end of that cylinder between the sides, such as cotter pins
 * Optionally, acrylic tube to glue to side for holding markers
