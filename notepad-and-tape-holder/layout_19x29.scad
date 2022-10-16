@@ -35,7 +35,7 @@ projection() {
         translate([spacing + back_width + spacing + pocket_depth + spacing, 0, spacing]) {
             short_side();
         }
-        translate([spacing + back_width + spacing + pocket_depth + spacing, 0, spacing + pocket_height + spacing]) {
+        translate([spacing + back_width + spacing + pocket_depth + spacing, 0, spacing + pocket_height + spacing + spacing]) {
             short_side();
         }
         translate([((spacing + pocket_width) * 2) + spacing, 0, spacing + back_height + spacing + front_height + spacing]) {
