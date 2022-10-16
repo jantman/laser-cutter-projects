@@ -5,6 +5,7 @@ use <long_side.scad>;
 use <front.scad>;
 use <bottom.scad>;
 use <spacer.scad>;
+use <cylinder_end_stop.scad>;
 
 $fn = 360;
 
@@ -15,8 +16,9 @@ back_height = pocket_height + top_height + bottom_height + thickness;
 long_height = pocket_height + bottom_height + thickness;
 front_height = pocket_height + thickness;
 
-projection() {
+//projection() {
     rotate([-90, 0, 0]) {
+        #cube([35, 1, 23]);
         translate([spacing, 0, spacing]) {
             back();
         }
@@ -63,5 +65,10 @@ projection() {
                 }
             }
         }
+        translate([spacing + back_width + spacing + pocket_depth + spacing + 2 + spacing + pocket_depth + spacing + (tape_holder_diameter * 2), 0, tape_holder_diameter + spacing]) {
+            rotate([-90, 0, 0]) {
+                cylinder_end_stop();
+            }
+        }
     }
-}
+//}

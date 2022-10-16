@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in back bottom front long_side short_side spacer; do
+for i in back bottom front long_side short_side spacer cylinder_end_stop; do
     echo "use <${i}.scad>;" > tmp.scad
     echo '$fn = 360;' >> tmp.scad
     echo 'projection() {' >> tmp.scad
