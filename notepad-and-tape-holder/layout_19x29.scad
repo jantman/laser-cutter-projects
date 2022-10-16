@@ -16,9 +16,9 @@ back_height = pocket_height + top_height + bottom_height + thickness;
 long_height = pocket_height + bottom_height + thickness;
 front_height = pocket_height + thickness;
 
-//projection() {
+projection() {
     rotate([-90, 0, 0]) {
-        #cube([35, 1, 23]);
+        //#cube([35, 1, 23]);
         translate([spacing, 0, spacing]) {
             back();
         }
@@ -65,10 +65,17 @@ front_height = pocket_height + thickness;
                 }
             }
         }
-        translate([spacing + back_width + spacing + pocket_depth + spacing + 2 + spacing + pocket_depth + spacing + (tape_holder_diameter * 2), 0, tape_holder_diameter + spacing]) {
+        translate([spacing + back_width + spacing + pocket_depth + spacing + pocket_depth + spacing + pocket_depth + spacing + pocket_depth, 0, spacing]) {
+            rotate([0, -90, 0]) {
+                rotate([90, 0, 0]) {
+                    bottom();
+                }
+            }
+        }
+        translate([spacing + back_width + spacing + pocket_depth + spacing + 2 + spacing + pocket_depth + spacing + (tape_holder_diameter * 2), 0, tape_holder_diameter + spacing + pocket_height + spacing]) {
             rotate([-90, 0, 0]) {
                 cylinder_end_stop();
             }
         }
     }
-//}
+}
