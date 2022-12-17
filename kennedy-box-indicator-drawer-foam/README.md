@@ -1,8 +1,16 @@
 # github.com/jantman/laser-cutter-projects/kennedy-box-indicator-drawer-foam
 
-Laser cutter project to cut 1/4" (6mm) EVA foam to make an indicator holder for the narrow, tall drawer of a Kennedy machinist box.
+Laser cutter project to cut [1/4" (6mm) EVA foam](https://smile.amazon.com/gp/product/B089K9769X/) to make an indicator holder for the narrow, tall drawer of a Kennedy machinist box.
 
-This was cut on a Glowforge Pro set to 300 speed, 100 power, 2 passes.
+![photograph of finished project](final_sm.jpg)
+
+## Fabrication
+
+This was cut on a Glowforge Pro set to 300 speed, 100 power, 2 passes. The guide for gluing down the "fingers" separating the indicator stem extensions, to keep them straight during glue-up, was 3D printed.
+
+![photograph of all layers](slices_sm.jpg)
+
+## Specifications
 
 * Box: Model [520](https://buykennedy.com/product/20-7-drawer-machinists-chest/); other Kennedy boxes should be largely the same.
 * Drawer: The tall half-width drawer on the left side. Interior dimensions are 218 mm widr x 186 mm deep x 50 mm high.
