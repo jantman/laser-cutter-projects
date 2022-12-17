@@ -2,17 +2,19 @@ module cutout() {
     include <config.scad>
     difference() {
         cube([218, 186, box_height]);
-        translate([70, 40, 48 - ((18.3 + 8.75) * scale_factor) + 0.01]) {
-            scale([scale_factor, scale_factor, scale_factor]) {
-                dial_test_indicator();
+        translate([120, 80, 48 - ((18.3 + 8.75) * scale_factor) + 0.01]) {
+            rotate([0, 0, 180]) {
+                scale([scale_factor, scale_factor, scale_factor]) {
+                    dial_test_indicator();
+                }
             }
         }
-        translate([35, 30, 48 - (25.5 * scale_factor) + 0.01]) {
+        translate([110, 120, 48 - (25.5 * scale_factor) + 0.01]) {
             scale([scale_factor, scale_factor, scale_factor]) {
                 dti_stem();
             }
         }
-        translate([160, 110, 48 - (24 * scale_factor) + 0.01]) {
+        translate([165, 115, 48 - (24 * scale_factor) + 0.01]) {
             scale([scale_factor, scale_factor, scale_factor]) {
                 dial_indicator();
             }
@@ -53,12 +55,12 @@ module cutout() {
             cube([10, 60, 5]);
         }
         // dial indicator tips
-        translate([20, 0, box_height - 16.999]) {
-            cube([95, 66, 17]);
-            translate([0, 33, -2.9]) {
+        translate([15, 15, box_height - 16.99]) {
+            cube([66, 95, 17]);
+            translate([0, 95 / 2, -2.9]) {
                 cylinder(d=20, h=20);
             }
-            translate([95, 33, -2.9]) {
+            translate([66, 95 / 2, -2.9]) {
                 cylinder(d=20, h=20);
             }
         }
