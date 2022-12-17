@@ -74,12 +74,12 @@ module dial_indicator() {
             cylinder(d=60, h=24);
         }
         // first stem segment
-        translate([-1 * (9.5 / 2), -1 * (35 + 29), 3]) {
-            cube([9.5, 36, 24 - 3]);
+        translate([-1 * (9.5 / 2), -1 * (20 + 29), 3]) {
+            cube([9.5, 21, 24 - 3]);
         }
         // second stem segment
         translate([-1 * (4.5 / 2), -1 * (35 + 29 + 20), 5.5]) {
-            cube([4.5, 21, 24 - 5.5]);
+            cube([4.5, 36, 24 - 5.5]);
         }
         // back lug
         translate([-4.4, -8.25, -19]) {
