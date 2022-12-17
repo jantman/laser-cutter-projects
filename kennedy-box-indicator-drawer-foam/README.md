@@ -19,3 +19,8 @@ Laser cutter project to cut 1/4" (6mm) EVA foam to make an indicator holder for 
 * [main.stl](main.stl) - STL file of full model
 * [config.scad](config.scad) - Various settings; included in other scad files
 * [modules.scad](modules.scad) - Modules representing individual components
+
+## Notes for Next Time
+
+* The drawer is actually one layer shallower than I'd designed for; omit the final bottom layer (layer 0).
+* The DTI dovetail stem needs to be one layer higher; as is, it's very difficult to remove.

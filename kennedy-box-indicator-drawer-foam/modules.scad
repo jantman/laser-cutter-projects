@@ -51,7 +51,7 @@ module cutout() {
             }
         }
         // end cut-out for stem extension removal
-        translate([15, 120, box_height]) {
+        translate([15, 120, box_height - 0.1]) {
             cube([10, 60, 5]);
         }
         // dial indicator tips
