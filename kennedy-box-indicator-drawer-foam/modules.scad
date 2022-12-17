@@ -19,41 +19,7 @@ module cutout() {
                 dial_indicator();
             }
         }
-        // indicator stem extensions
-        translate([20, 175, box_height]) {
-            rotate([0, 90, 0]) {
-                cylinder(d=5, h=160);
-            }
-        }
-        translate([20, 165, box_height]) {
-            rotate([0, 90, 0]) {
-                cylinder(d=5, h=135);
-            }
-        }
-        translate([20, 155, box_height]) {
-            rotate([0, 90, 0]) {
-                cylinder(d=5, h=110);
-            }
-        }
-        translate([20, 145, box_height]) {
-            rotate([0, 90, 0]) {
-                cylinder(d=5, h=85);
-            }
-        }
-        translate([20, 135, box_height]) {
-            rotate([0, 90, 0]) {
-                cylinder(d=5, h=60);
-            }
-        }
-        translate([20, 125, box_height]) {
-            rotate([0, 90, 0]) {
-                cylinder(d=5, h=35);
-            }
-        }
-        // end cut-out for stem extension removal
-        translate([15, 120, box_height - 0.1]) {
-            cube([10, 60, 5]);
-        }
+        indicator_stem_extensions();
         // dial indicator tips
         translate([15, 15, box_height - 16.99]) {
             cube([66, 95, 17]);
@@ -64,6 +30,45 @@ module cutout() {
                 cylinder(d=20, h=20);
             }
         }
+    }
+}
+
+module indicator_stem_extensions() {
+    include <config.scad>
+    // indicator stem extensions
+    translate([20, 175, box_height]) {
+        rotate([0, 90, 0]) {
+            cylinder(d=5, h=160);
+        }
+    }
+    translate([20, 165, box_height]) {
+        rotate([0, 90, 0]) {
+            cylinder(d=5, h=135);
+        }
+    }
+    translate([20, 155, box_height]) {
+        rotate([0, 90, 0]) {
+            cylinder(d=5, h=110);
+        }
+    }
+    translate([20, 145, box_height]) {
+        rotate([0, 90, 0]) {
+            cylinder(d=5, h=85);
+        }
+    }
+    translate([20, 135, box_height]) {
+        rotate([0, 90, 0]) {
+            cylinder(d=5, h=60);
+        }
+    }
+    translate([20, 125, box_height]) {
+        rotate([0, 90, 0]) {
+            cylinder(d=5, h=35);
+        }
+    }
+    // end cut-out for stem extension removal
+    translate([15, 120, box_height - 0.1]) {
+        cube([10, 60, 5]);
     }
 }
 
