@@ -2,6 +2,8 @@
 
 Clear acrylic holder for three types of 5.5x8.5" pads, tape, and markers (using a tube glued to the side).
 
+![photo of finished project](finished.jpg)
+
 ## Cut List
 
 * 1x [back.svg](back.svg)
