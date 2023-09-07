@@ -27,3 +27,7 @@ I experimented with using an Olfa PC-L laminate scoring knife to score and then 
 [![final tag cut out](cutout_sm.jpg)](cutout.jpg)
 
 My plan is to attach (likely just with CA glue) a small rectangle of thin sheet steel to the back of the aluminum and then use a magnet to hold the name tag to my shirt (or whatever else).
+
+## V2 - Decatur Makers tags
+
+`DecaturMakers_board_nametag_with_guide_box.svg` and `DecaturMakers_nametag_with_guide_box.svg` - These are new [DecaturMakers](https://decaturmakers.org/)-specific name tags intended to be made on our Thunder Nova 35 laser, cut via Lightburn. Red is cut, black is engrave, blue is ignore. These are cut from Trotec TroLase blue-on-white 1/16" acrylic, i.e. [this Amazon product](https://www.amazon.com/dp/B0B7NT3CRN).
