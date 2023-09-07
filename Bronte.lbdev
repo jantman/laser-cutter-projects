@@ -1,0 +1,182 @@
+{
+    "DeviceList": [
+        {
+            "Checklist": "",
+            "DefaultCutList": [
+                {
+                    "dotSpacing": 0.009999999776482582,
+                    "dotTime": 1,
+                    "index": 13,
+                    "maxPower": 70,
+                    "maxPower2": 20,
+                    "minPower": 70,
+                    "name": "C13",
+                    "overscan": false,
+                    "priority": 2,
+                    "scanOpt": "individual",
+                    "speed": 10,
+                    "tabCount": 1,
+                    "tabCountMax": 1,
+                    "tabSize": 0.5003799796104431,
+                    "tabSpacing": 50.038002014160156,
+                    "type": "Cut"
+                }
+            ],
+            "DefaultToolCutList": [
+            ],
+            "DisplayName": "Bronte",
+            "EnableLaser2Offset": false,
+            "EnableProcessOffset": false,
+            "GUID": "5ZGRhLTJiN",
+            "Height": 599.998779296875,
+            "HomeOnStartup": true,
+            "Info": "",
+            "Laser2OffsetX": 0,
+            "Laser2OffsetY": 0,
+            "LastCamera": "\\\\?\\usb#vid_15aa&pid_1555&mi_00#6&2725c4fc&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global",
+            "LastDevLibraryPath": "C:/Users/Bronte/Desktop/USER FOLDERS/J.Antman/Thunder_100_Watt_LightBurn_Materials_Library.clb",
+            "MirrorX": false,
+            "MirrorY": true,
+            "Name": "Ruida",
+            "ProcessOffsetX": 0,
+            "ProcessOffsetY": 0,
+            "ReverseIntervalCompensation": true,
+            "ReverseIntervals": [
+                {
+                    "LineShift": 0.05999999865889549,
+                    "Speed": 200,
+                    "StartAdjust": 0
+                },
+                {
+                    "LineShift": 0.30000001192092896,
+                    "Speed": 400,
+                    "StartAdjust": 0
+                },
+                {
+                    "LineShift": 0.33000001311302185,
+                    "Speed": 600,
+                    "StartAdjust": 0
+                },
+                {
+                    "LineShift": 0.33000001311302185,
+                    "Speed": 800,
+                    "StartAdjust": 0
+                },
+                {
+                    "LineShift": 0.30000001192092896,
+                    "Speed": 1000,
+                    "StartAdjust": 0
+                }
+            ],
+            "Settings": {
+                "AlignH": 0,
+                "AlignV": 0,
+                "AutoIncrementFilename": true,
+                "Checklist": false,
+                "ClickSelTolerance": 3,
+                "CutOrigin": 1,
+                "DisableStart": true,
+                "DockState_ArtBrowser": true,
+                "DockState_Camera": false,
+                "DockState_Console": false,
+                "DockState_CutLibrary": true,
+                "DockState_LaserFiles": false,
+                "DockState_Move": true,
+                "DockState_ShapeProperties": false,
+                "DockState_VariableText": false,
+                "EnableU": false,
+                "EnableZ": false,
+                "ForceSValueOutput": false,
+                "FrameBoundsCheck": false,
+                "GridShade": 224,
+                "GridSnap": 1.0007599592208862,
+                "GridSnapEnabled": true,
+                "GridSpacing": 9.999979972839355,
+                "JobEndDelay": 0,
+                "JobStartDelay": 0,
+                "Laser2Enabled": false,
+                "Laser2OffsetEnabled": false,
+                "Laser2OffsetX": 0,
+                "Laser2OffsetY": 0,
+                "LaserFire_Enable": false,
+                "LaserFrame_Enable": true,
+                "NegativeZ": false,
+                "NetworkTimeout": 5000,
+                "ObjSnap": 10,
+                "ObjSnapEnabled": true,
+                "OptimizeZ": false,
+                "Pen_AbsDownPos": 0,
+                "Pen_AbsUpPos": 0,
+                "Pen_DownDelay": 0,
+                "Pen_Enabled": false,
+                "Pen_Type": 0,
+                "Pen_UpDelay": 0,
+                "Pen_ZRelChange": 0,
+                "RelativeZOnly": false,
+                "Sim_CornerTolerance": 0.009999999776482582,
+                "Sim_FastWhiteScan": false,
+                "Sim_FastWhiteScanSpeed": 400,
+                "Sim_GlobalFactor": 1,
+                "Sim_MaxAccelX": 3600,
+                "Sim_MaxAccelY": 3600,
+                "Sim_MaxSpeedX": 1000,
+                "Sim_MaxSpeedY": 300,
+                "Sim_MinCornerSpeed": 1,
+                "Sim_RapidSpeed": 400,
+                "Sim_ScanAccelX": 9250,
+                "Sim_ScanAccelY": 2775,
+                "Sim_SpeedFactor": 1,
+                "TabPulseWidth": 0.05000000074505806,
+                "Units": 4,
+                "UserFinishX": 0,
+                "UserFinishY": 0,
+                "cameraIsFisheye": false,
+                "cameraMatrix": [
+                    5143.996821101691,
+                    0,
+                    0,
+                    0,
+                    5520.7607853581785,
+                    0,
+                    1905.4854016637162,
+                    1048.5114901675915,
+                    1
+                ],
+                "distortionMatrix": [
+                    -0.14669102383499966,
+                    8.957035818132999,
+                    0.012342631574133052,
+                    -0.005052877458148835,
+                    -131.99631155753812
+                ],
+                "inversePerspective": [
+                    1.252018786459623,
+                    0.016667668172838837,
+                    4.964776658535541e-06,
+                    -0.14869706729386062,
+                    1.1872691973256715,
+                    -6.978496423527445e-05,
+                    -449.3039123069508,
+                    -335.32810402376384,
+                    1
+                ],
+                "isHeadCamera": false,
+                "mapScale": 0.380941241979599,
+                "mirrorRotaryOutput": false,
+                "rotaryIsChuck": false,
+                "rotaryObjDiameter": 101.218994140625
+            },
+            "Type": "Serial",
+            "UserCoords": [
+                {
+                    "IncludeZ": false,
+                    "Name": "Home",
+                    "XPos": 0,
+                    "YPos": 0,
+                    "ZPos": 3000
+                }
+            ],
+            "Width": 899.8966064453125
+        }
+    ]
+}
