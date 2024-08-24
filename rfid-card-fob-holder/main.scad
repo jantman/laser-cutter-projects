@@ -3,8 +3,8 @@ $fn = 360;
 include <config.scad>
 use <modules.scad>
 
-show_stacked = "true";
-//show_stacked = "false";
+//show_stacked = "true";
+show_stacked = "false";
 sliced = "true";
 
 if(show_stacked == "true") {
