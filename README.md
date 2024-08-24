@@ -10,4 +10,5 @@ Things I've made on the GlowForge and other laser cutters
 * [kennedy-box-indicator-drawer-foam/](kennedy-box-indicator-drawer-foam/) - Layered foam inserts to hold indicators in the narrow tall drawer of a Kennedy machinist toolbox (e.g. 520).
 * [nametag/](nametag/) - A simple name tag for myself, in aluminum
 * [notepad-and-tape-holder/](notepad-and-tape-holder/) - Clear acrylic holder for two types of 5.5x8.5" pads, tape, and markers.
+* [rfid-card-fob-holder/](rfid-card-fob-holder/) - A holder for RFID cards and fobs to align and hold them over a RFID reader; designed for [https://github.com/jantman/machine-access-control](https://github.com/jantman/machine-access-control).
 * [siding_plier_jaws/](siding_plier_jaws/) - Custom steel jaws to convert automotive relay pliers into pliers for fiber cement siding clips.
