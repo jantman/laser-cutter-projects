@@ -12,3 +12,11 @@ These are intended to be cut from 3mm (0.111" actual) clear cast acrylic. A ligh
 * [one-up.svg](one-up.svg) - All parts for one holder.
 * [two-up.svg](two-up.svg) - All parts for two holders.
 * [four-up-12x12.svg](four-up-12x12.svg) - Parts for four holders packed onto a 12"x12" sheet.
+
+[![photo of holder with card](card1_sm.jpg)](card1.jpg)
+
+[![photo of holder with card](card2_sm.jpg)](card2.jpg)
+
+[![photo of holder with key fob](fob1_sm.jpg)](fob1.jpg)
+
+[![photo of holder with key fob](fob2_sm.jpg)](fob2.jpg)
